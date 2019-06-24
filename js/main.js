@@ -17,13 +17,11 @@ document.addEventListener('DOMContentLoaded', function(){
             // Turn off off
             console.log("It's on, turning off");
 
-            elm.className = "switch off";
-            // elm.classList.remove("on");
-            // elm.classList.add("off");
+            elm.classList.remove("on");
+            elm.classList.add("off");
 
-            body.className = "dark";
-            // body.classList.remove("light");
-            // body.classList.add("dark");
+            body.classList.remove("light");
+            body.classList.add("dark");
 
             status.innerText = "Hey, who turned off the lights?";
 
